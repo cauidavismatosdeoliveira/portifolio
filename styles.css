@@ -7,7 +7,7 @@ body{
     justify-content: space-between;
 }
 *{
-    padding: 0;
+    padding: 10;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
@@ -261,6 +261,12 @@ h5{
     margin-top: 20px;
 }
 
+p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 footer{
     background-color: #151f28;
@@ -319,4 +325,9 @@ footer p{
     color: blue;
     bottom: 35px;
     font-size: 14px ;
+}
+.imagem-site{
+    margin-top: 5px;
+    width: 250px;
+    height: 150px;
 }
