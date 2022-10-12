@@ -11,20 +11,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
   </head>
   <body>
-    
-    <div class="background">
-      <nav>
-          <h2 class="logo" id ="inicio">Portfó<span>lio</span></h2><!--Logo-->
-          <ul class="responsivo">
-              <li><a href="#inicio">Início</a></li>
-              <li><a href="#sobre mim">Sobre mim</a></li>
-              <li><a href="#projetos">Projetos</a></li>
-          </ul><!--cabeçalho-link-->
-      </nav>
-
-      <div id = "inicio" class="Main ">
+    <div>
+        <nav style="background-color: black">
+            <h2 class="logo" id ="inicio">Portfó<span>lio</span></h2><!--Logo-->
+            <ul class="responsivo">
+                <li><button type="button" id="botao1" class="button" onclick="botao1()">Início</button></li>
+                <li><button id="botao2" class="button" onclick="botao2()">Sobre mim</button></li>
+                <li><button id="botao1" class="button" onclick="botao3()">Projetos</button></li>
+            </ul><!--cabeçalho-link-->
+        </nav>
+    </div>
+    <div  id = "inicio1"class="background">
+      <div  class="Main ">
           <h4>Olá, meu nome é</h4>
           <h1><span> Cauí davis</span></h1>
           <h3>Eu sou um desenvolvedor web</h3>
@@ -33,7 +34,7 @@
 
 
   <!--Começo-da-seção-sobre-->
-
+  <div id="sobre-mim">
   <section id = "sobre min" class="background-color-Sobre">
       <div class="main-sobre">
           <img src="profile-pic.png">
@@ -44,10 +45,10 @@
           </div><!--Text-sobre-->
       </div><!--main-sobre-->
   </section><!--background-color-Sobre-->
-
+  </div>
   <!--Começo-da-seção-nossos-serviços-->
   
-  <div class="Container-serviços">
+  <div id= "projeto" class="Container-serviços">
       <div class="title">
           <h2 id ="projetos">Projetos</h2>
       </div>
@@ -76,6 +77,6 @@
           <a href="https://www.linkedin.com/in/caui-davis-05a06224b/" target="_blank" ><i class="fa-brands fa-linkedin"></i></i></a>
       </div><!--Redes-sociais-->
   </footer>
-
+  <script  type ="text/javascript" src="scripts.js"></script>
   </body>
 </html>
