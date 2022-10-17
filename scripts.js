@@ -13,5 +13,6 @@ function botao3(){
     document.getElementById("projeto").style.display = "block";
     document.getElementById("sobre-mim").style.display = "none";
 }
+
 document.getElementById("projeto").style.display = "none";
 document.getElementById("sobre-mim").style.display = "none";
