@@ -202,16 +202,7 @@ h3 {
   border: 2px solid var(--cor1);
   cursor: pointer;
 }
-.button:focus {
-  background-color: red;
-  color: var(--cor2);
-  text-transform: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 20px;
-  border-radius: 30px;
-  transition: 0.4s;
-}
+
 
 .Container-serviços {
   background-color: #101010;
